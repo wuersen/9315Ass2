@@ -66,7 +66,7 @@ Bool existsRelation(char *name)
 }
 
 // set up a relation descriptor from relation name
-// open files, reads information from rel.info
+// open files,reads information from rel.info
 
 Reln openRelation(char *name, char *mode)
 {
